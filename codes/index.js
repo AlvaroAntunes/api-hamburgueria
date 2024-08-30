@@ -17,7 +17,7 @@ const checkOrderId = (request, response, next) => {
 
     const index = orders.findIndex(user => user.id === id)
     if (index < 0) {
-        return response.status(404).json({ error: "Order not found" })
+        return response.status(404).json({ error: 'Order not found' })
     }
     request.orderId = id
     request.orderIndex = index
@@ -48,7 +48,7 @@ app.put('/order/:id', checkOrderId, methodAndUrl, (request, response) => {
 //Rota para excluir um pedido específico.
 app.delete('/order/:id', checkOrderId, methodAndUrl, (request, response) => {
     orders.splice(request.orderIndex, 1)
-    return response.status(204).json()
+    return response.json({ message: 'Order deleted successfully' })
 })
 
 //Rota para mostrar um pedido específico.
