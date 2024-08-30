@@ -36,7 +36,7 @@ Este projeto utiliza Node.js e Express para criar uma API que gerencia pedidos d
 2. **Navegue até o diretório do projeto:**
 
     ```bash
-    cd api-hamburgueria
+    cd api-hamburgueria/codes
     ```
 
 3. **Instale as dependências:**
