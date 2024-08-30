@@ -5,7 +5,7 @@ Uma API simples para gerenciar pedidos de uma hamburgueria, desenvolvida utiliza
 ## Sumário
 
 - [Descrição](#descrição)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Rotas da API](#rotas-da-api)
